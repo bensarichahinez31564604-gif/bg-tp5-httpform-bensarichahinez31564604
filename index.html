@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>CinePass</h1>
+        <p>Inscription au Club de Cinema - Saison 2025</p>
+    </div>
+
+    <div class="note">
+       <p>Rejoignez notre club et profitez des tarifs reduites d'avant-premieres exclusives et de rencontrer avec des realisateurs !</p>
+    </div>
+
+    <div class="form1">
+       <h2><strong>Informations Personnelles</strong></h2>
+       <form>
+        
+        <label for="prenom">Prأ©nom:</label>
+        <input type="text" id="prenom" name="prenom" value="Ex:Ahmed"><br><br>
+
+         <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="email">Address email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mot de passe">Mot de passe:</label>
+        <input type="password" id="mot de passe" name="mot de passe" required minlength="8"><br><br>
+
+        <label for="telephone">Tأ©lأ©phone:</label>
+        <input type="tel" id="telephone" name="telephone" required pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}"><br><br>
+
+        <label for="date de naissance">Date de naissance:</label>
+        <input type="date" id="date de naissance" name="date de naissance" required min="1926-01-01" max="2026-12-31"><br><br>
+        
+       </form>
+    </div>
+
+    <div class="form2">
+       <h2><strong>Formule d'abonnement</strong></h2>
+         <form>
+          <fieldset>
+            <legend>Choisissez votre formule :</legend>
+
+            <input type="radio" id="formule1" name="formule" value="formule1" required>
+            <label for="formule1">Basique - 4 seances/mois (2000DA/mois)</label><br>
+
+          <input type="radio" id="formule1" name="formule" value="formule1" required>
+            <label for="formule1">Premium - 10 seances/mois (4500DA/mois)</label><br>
+
+           <input type="radio" id="formule1" name="formule" value="formule1" required>
+            <label for="formule1">Illimitee - Seances illimitees (7000DA/mois)</label><br>
+          </fieldset>
+         
+          <label for="debut" >Date de debut souhaitأ©e:</label>
+          <input type="date" id="debut" name="debut" required><br><br>
+            
+         <label for="Duree d'engagement">Durأ©e d'engagement:</label>
+         
+
+         <select id="engagement" name="engagement" required>
+            <option value="3 mois">3 mois</option>
+            <option value="6 mois(-5%)">6 mois(-5%)</option>
+            <option value="12 mois(-10%)">12 mois(-10%)</option>
+          </select><br><br>
+         
+
+          <label for="number">Nombre d'accompagnants habituels:</label>
+           <input type="tel" id="Nombre d'accompagnants habituels" name="number" min="0"  required><br><br>
+    </form>
+    </div>
+
+    <div class="form3">
+        <h2><strong>Vos Preferences cinematograpgiques</strong></h2>
+        <form>
+            <fieldset> 
+                <legend> Genre de films preferes :</legend>
+
+                <input type="checkbox" id="action/aventure" name="genre" value="action/aventure" checked />
+                <label for="action/aventure">Action/Aventure</label><br>
+
+                <input type="checkbox" id="comedie" name="genre" value="comedie" />
+                <label for="comedie">Comأ©die</label><br>
+
+                <input type="checkbox" id="drama" name="genre" value="drama" />
+                <label for="drama">Drame</label><br>
+
+                <input type="checkbox" id="horreur" name="genre" value="horreur" />
+                <label for="horreur">Horreur/Thriller</label><br>
+
+                <input type="checkbox" id="science-fiction" name="genre" value="science-fiction" />
+                <label for="science-fiction">Science-Fiction</label><br>
+
+                <input type="checkbox" id="romance" name="genre" value="romance" />
+                <label for="romance">Romance</label><br>
+
+                <input type="checkbox" id="documentaire" name="genre" value="documentaire" />
+                <label for="documentaire">Documentaire</label><br>
+            </fieldset>
+        </form>
+</body>
+</html>
