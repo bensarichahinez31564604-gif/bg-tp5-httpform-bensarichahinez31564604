@@ -1,0 +1,219 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html {
+  min-height: 100%;
+  background: linear-gradient(180deg, #14182b 0%, #0b3a66 100%) fixed;
+}
+
+body {
+  max-width: 680px;
+  margin: 15px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  
+  font-size: 14px;
+  color: #222;
+ 
+  padding-bottom: 30px;
+}
+
+.header {
+  background: linear-gradient(135deg, #ee4a62, #c9253f);
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  
+  h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 6px;
+  }
+  p {
+    color: #fff;
+    font-size: 12px;
+  }
+}
+
+.note {
+    background-color: #fdf1c7;
+     border: 1px solid #f6e3a1;
+     border-left: 4px solid #edba02;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    color: #ae7e0e;
+}
+
+.form1 {
+  background-color: #fafafb;
+  border-left: 4px solid #e8445a;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  #email, #motdepasse  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  #prenom, #nom, #adresse, #ville, #codepostal {
+    width: 100%;
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  #telephone, #datedenaissance {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #292c83;
+    font-size: 12px;
+  }
+}
+
+.form2 {
+  background-color: #f2f2f25b;
+  border-left: 4px solid #e8445a;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #dc3030;
+    font-size: 12px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #292c83;
+    font-size: 12px;
+  }
+}
+
+.form3 {
+  background-color: #f2f2f25b;
+  border-left: 4px solid #e8445a;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #dc3030;
+    font-size: 12px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #292c83;
+    font-size: 12px;
+  }
+}
+
+
+ br {
+    display: none;
+  }
+
+input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="number"],
+  input[type="week"],
+  input[type="time"],
+  input[type="datetime-local"],
+  input[type="url"],
+  input[type="search"],
+  select,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    background-color: #fff;
+    border: 1px solid #d9dbe0;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #333;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #e8445a;
+    box-shadow: 0 0 0 3px rgba(232, 68, 90, 0.15);
+  }
+
+  
+fieldset {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 8px;
+    margin: 10px 0 15px;
+    padding: 18px 20px;
+    border: 1px solid #dcdde2;
+    border-radius: 10px;
+  }
+
+  fieldset input[type="radio"],
+  fieldset input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #e8445a;
+  }
+
+    fieldset label {
+    margin: 0;
+    padding: 8px 12px;
+    background-color: #f6f6f9;
+    border-radius: 6px;
+    font-size: 13px;
+    color: #222;
+  }
